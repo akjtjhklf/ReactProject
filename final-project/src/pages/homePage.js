@@ -6,6 +6,7 @@ import { PrevArrow, NextArrow } from '../components/arrowComponents'
 import './homePage.css'
 import productsData from '../data.json';
 import {Link} from "react-router-dom";
+import Footer from '../components/footer';
 
 // import detailShop from './detail.json'
 
@@ -60,6 +61,7 @@ const HomePage = () => {
           <Link to="/product" className="navi">Xem Tất Cả Sản Phẩm</Link>
         </button>
       </div>
+      <Footer/>
     </div>
   );
 };

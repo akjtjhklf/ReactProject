@@ -48,7 +48,7 @@ const Modal = ({ product, onClose }) => {
         <div className="col-md-7">
             <p className="text-left mt-3" style={{color: 'green', font_weight: 'bold'}}>NEW</p>
             <h2 className="text-left text-capitalize">{product.name}</h2>
-            <p className="text-left Price">Giá: {product.price}đ</p>
+            <p className="text-left Price-modal">Giá: {product.price}đ</p>
             <div className="d-flex justify-content-left size_info">
               {product.size.map((size, index) => (
               <button className={`mr-3 mb-3 size_but ${selectedSize === size ? 'selected-size' : ''}`} key={index}onClick={() => handleSizeClick(size)}>

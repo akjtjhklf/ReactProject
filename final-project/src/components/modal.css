@@ -65,3 +65,8 @@
     z-index: 2000; /* Đặt z-index cao hơn so với các khối khác để hiển thị trên cùng */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
+.Price-modal{
+    text-align: left !important;
+    color: rgb(246, 124, 124);
+    text-decoration: underline;
+}
