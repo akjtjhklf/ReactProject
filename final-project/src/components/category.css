@@ -1,0 +1,19 @@
+.category-item{
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 100% !important;
+    border: none !important;
+    background-color: white !important;
+}
+.selected-category {
+    padding: 10px;
+    border-radius: 100%; /* Bo tròn góc viền */
+    background-color: #FAEBD7 !important;
+}
+.category-item-button{
+    width: 80px !important;
+    height: 80px !important;
+    border: 0px;
+    border-radius: 100%;
+    background-color: #F8F8F8;
+}

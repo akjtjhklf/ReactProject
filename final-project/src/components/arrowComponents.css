@@ -1,0 +1,18 @@
+.slick-arrow {
+    color: rgb(252, 205, 147);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+  
+.slick-prev {
+    left: 10px; /* Vị trí của nút trái */
+}
+  
+.slick-next {
+    right: 10px; /* Vị trí của nút phải */
+}
+  

@@ -1,0 +1,29 @@
+.Name{
+    text-align: left !important;
+}
+.Price{
+    text-align: left !important;
+    color: rgb(246, 124, 124);
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+}
+.Brand{
+    text-align: left !important;
+    color:brown;
+}
+.Description{
+    text-align: left !important;
+}
+.Buy_Item{
+    position: absolute;
+    bottom: 10;
+    border: none;
+    border-radius: 5px;
+    background-color:#FAEBD7;
+    padding: 7px;
+}
+.Buy:hover{
+    transform: scale(1.05);
+    transition: 0.15s;
+}
